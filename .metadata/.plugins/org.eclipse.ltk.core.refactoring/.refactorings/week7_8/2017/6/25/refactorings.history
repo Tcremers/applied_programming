@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;GetData.h, LogisticRegression.cpp, LogisticRegression.h, NearestNeighbours.cpp, NearestNeighbours.h, dataX.dat, dataXtest.dat, dataY.dat, handin4.zip&apos; to &apos;week7_8&apos;" description="Move 9 resources to &apos;week7_8&apos;" destination="/week7_8" element1="src/GetData.h" element2="src/LogisticRegression.cpp" element3="src/LogisticRegression.h" element4="src/NearestNeighbours.cpp" element5="src/NearestNeighbours.h" element6="src/dataX.dat" element7="src/dataXtest.dat" element8="src/dataY.dat" element9="src/handin4.zip" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="9" stamp="1498041503570" updateReferences="true"/>
+</session>

@@ -1,0 +1,58 @@
+/*
+ * LogisticRegression.cpp
+ *
+ *  Created on: 10 jun. 2017
+ *      Author: Tycho
+ */
+
+#include "LogisticRegression.h"
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <cassert>
+#include <vector>
+#include "GetData.h"
+#include "../armadillo.hpp"
+
+
+using namespace std;
+using namespace arma;
+
+
+vector<double> optimW(GetData data, double e){
+	double diff;
+	double a = 1.5;
+	e =  pow(10,-7);
+	rowvec wPrevious = zeros<rowvec>(data.getXData()[0].size());
+	rowvec wNext = zeros<rowvec>(data.getXData()[0].size());
+
+	while(diff > e){
+		wNext
+
+		diff = norm()
+	}
+	//
+}
+
+void logisticRegression(){
+	GetData data;
+	ofstream outFile("LogReg.dat.dat");
+	assert(outFile.is_open());
+	vector<double> w;
+
+
+//	for(unsigned int i = 0; i < data.getXTestData().size(); i++){
+//		for(unsigned int j = 0; j < data.getXData().size(); j++){
+//			pair<double,int> foo;
+//			scorePairs.push_back(make_pair(norm(data.getXTestData()[i] - data.getXData()[j]), data.getYdata()[j]));
+//		}
+//		sort(scorePairs.begin(), scorePairs.end());
+//		int label = calcLabel(scorePairs, k);
+//		//TODO: write label to file: NN.dat
+//		outFile << label << "\n";
+//		cout << label << "\n";
+//	}
+}
+
+
+//TODO: implement logistic regressions.

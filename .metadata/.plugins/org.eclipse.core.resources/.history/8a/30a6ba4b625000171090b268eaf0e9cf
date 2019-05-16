@@ -1,0 +1,48 @@
+/*
+ * NearestNeighbours.cpp
+ *
+ *  Created on: 10 jun. 2017
+ *      Author: Tycho
+ */
+
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <cassert>
+#include "NearestNeighbours.h"
+#include "../armadillo.hpp"
+
+
+using namespace std;
+using namespace arma;
+
+
+void loadFile(){
+	ifstream inFile("week7_8\\src\\dataX.dat");
+//	assert(inFile.good());
+	string line;
+
+	while (getline(inFile, line)) {
+		rowvec x(line);
+		x.print();
+		cout << line << endl;
+	    // output the line
+	    // now we loop back and get the next line in 'str'
+	}
+	cout << "Done" << endl;
+}
+
+
+
+
+
+
+
+
+
+void kNearestNeighbours(){
+	loadFile();
+	//Implement nearest neighbour bullshit
+}
+
+

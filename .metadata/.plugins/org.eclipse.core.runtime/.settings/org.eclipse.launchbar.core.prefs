@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:libWeek1_2.exe (1),org.eclipse.launchbar.core.descriptorType.default\:libWeek1_2.exe,org.eclipse.launchbar.core.descriptorType.default\:Test project.exe,org.eclipse.launchbar.core.descriptorType.default\:Week1_2.exe (1),org.eclipse.launchbar.core.descriptorType.default\:Week1_2.exe,org.eclipse.launchbar.core.descriptorType.default\:week3_4.exe,org.eclipse.launchbar.core.descriptorType.default\:testProject.exe,org.eclipse.launchbar.core.descriptorType.default\:week5_6.exe,org.eclipse.launchbar.core.descriptorType.default\:week7_8.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Test\ project.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Test\ project.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Week1_2.exe\ (1)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Week1_2.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:helloworld\ testpleaseignor.py/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:helloworld\ testpleaseignor.py/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:libWeek1_2.exe\ (1)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:libWeek1_2.exe\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

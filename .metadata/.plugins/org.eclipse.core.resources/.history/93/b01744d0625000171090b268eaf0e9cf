@@ -1,0 +1,33 @@
+/*
+ * NearestNeighbours.cpp
+ *
+ *  Created on: 10 jun. 2017
+ *      Author: Tycho
+ */
+
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <cassert>
+#include "NearestNeighbours.h"
+#include "GetData.h"
+#include "../armadillo.hpp"
+
+
+using namespace std;
+using namespace arma;
+
+
+
+
+
+
+
+
+
+void kNearestNeighbours(){
+	loadFile();
+	//Implement nearest neighbour bullshit
+}
+
+

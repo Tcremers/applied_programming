@@ -1,0 +1,14 @@
+15:32:23 **** Incremental Build of configuration Debug for project Week1_2 ****
+Info: Internal Builder is used for build
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2_6.o" "..\\src\\2_6.cpp" 
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\5_10.o" "..\\src\\5_10.cpp" 
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\5_6.o" "..\\src\\5_6.cpp" 
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\5_3.o" "..\\src\\5_3.cpp" 
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Week1_2.o" "..\\src\\Week1_2.cpp" 
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\3_3.o" "..\\src\\3_3.cpp" 
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\5_9.o" "..\\src\\5_9.cpp" 
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\5_4.o" "..\\src\\5_4.cpp" 
+g++ -o Week1_2.exe "src\\2_6.o" "src\\3_3.o" "src\\5_10.o" "src\\5_3.o" "src\\5_4.o" "src\\5_6.o" "src\\5_9.o" "src\\Week1_2.o" 
+
+15:32:27 Build Finished (took 3s.914ms)
+

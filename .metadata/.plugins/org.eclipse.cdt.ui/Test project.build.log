@@ -1,0 +1,7 @@
+11:28:10 **** Incremental Build of configuration Debug for project Test project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\programthing.o" "..\\src\\programthing.cpp" 
+g++ -o "Test project.exe" "src\\Test project.o" "src\\programthing.o" 
+
+11:28:11 Build Finished (took 376ms)
+

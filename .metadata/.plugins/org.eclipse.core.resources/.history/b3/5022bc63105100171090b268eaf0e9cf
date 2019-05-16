@@ -1,0 +1,12 @@
+/*
+ * LogisticRegression.cpp
+ *
+ *  Created on: 10 jun. 2017
+ *      Author: Tycho
+ */
+
+#include "LogisticRegression.h"
+
+using namespace std;
+
+//TODO: implement logistic regressions.

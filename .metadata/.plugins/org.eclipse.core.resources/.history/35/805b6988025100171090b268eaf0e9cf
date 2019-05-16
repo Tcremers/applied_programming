@@ -1,0 +1,24 @@
+//============================================================================
+// Name        : week7_8.cpp
+// Author      : Tycho
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "../armadillo.hpp"
+#include <string>
+#include "NearestNeighbours.h"
+#include <vector>
+
+using namespace std;
+using namespace arma;
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+//	kNearestNeighbours();
+	rowvec foo = {-4, -4, -3};
+	cout << norm(foo);
+
+}

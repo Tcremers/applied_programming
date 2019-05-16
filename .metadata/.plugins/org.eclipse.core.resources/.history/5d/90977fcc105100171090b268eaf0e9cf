@@ -1,0 +1,22 @@
+/*
+ * LogisticRegression.cpp
+ *
+ *  Created on: 10 jun. 2017
+ *      Author: Tycho
+ */
+
+#include "LogisticRegression.h"
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <cassert>
+#include <vector>
+#include "GetData.h"
+#include "../armadillo.hpp"
+
+
+using namespace std;
+using namespace arma;
+
+
+//TODO: implement logistic regressions.

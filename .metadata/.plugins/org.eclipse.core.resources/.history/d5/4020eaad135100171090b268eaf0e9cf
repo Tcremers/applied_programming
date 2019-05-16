@@ -1,0 +1,23 @@
+//============================================================================
+// Name        : week7_8.cpp
+// Author      : Tycho
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include "NearestNeighbours.h"
+#include "LogisticRegression.h"
+#include "../armadillo.hpp"
+
+using namespace std;
+using namespace arma;
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+//	kNearestNeighbours();
+
+}
